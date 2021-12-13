@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cmd basic</title>
+    <style>
+        body{
+            background-color: black;
+            font-family: courier;
+            
+        }
+        h1{
+            text-align: center;
+            color: gold;
+        }
+        p {
+            font-size: 30px;
+            color: chartreuse;
+        }
+        b{ color: yellow;}
+        .key{
+            color: magenta;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Cara lihat PW history wifi dengan commandprompt</h1>
+    <hr align="center" color="red" width="1000px">
+    <br>
+    <p>Pertama-tama buka cmd dengan <b>run as administrator</b> seperti gambar dibawah. </p>
+    <center><img src="str.png"></center>
+    <p>Kedua ketikkan perintah: <b>netsh wlan show profile</b> seperti gambar dibawah berikut... lalu enter</p>
+    <center><img src="lang2.png">
+        <br>
+        <img src="lang3.png">
+    </center>
+    <p>jika hasilnya banyak simpanan jaringan wifi seperti diatas, maka kita lanjut ke langkah selanjutnya yaitu <b>ketikkan perintah berikut dengan benar baik spasi maupun huruf kapitalnya</b> </p>
+    <p class="key">netsh wlan export profile folder =C:\ key=clear</p><p> Kemudian enter</p>
+    <p>jika berhasil/sukses hasilnya akan seperti dibawah...</p>
+    <center><img src="lang4.png"></center>
+    <p>selanjutnya kita buka explorer lalu ke <b> Windows (C:)</b> </p>
+    <center><img src="lang5.png"></center>
+    <p>lalu cari file wifi target tadi, kemudian klik kanan <b>open with notepad</b> seperti gambar dibawah...</p>
+    <center><img src="lang6.png"></center>
+    <p>scrool kebawah lihat pada <b> key material</b> dan disitulah pw wifinya seperti gambar dibawah...</p>
+    <center><img src="lang7.png"></center>
+</body>
+</html>
